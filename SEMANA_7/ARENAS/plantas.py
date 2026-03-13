@@ -1,4 +1,10 @@
-def plantas(p):
+import math
+import os
+import random
+import re
+import sys
+
+def poisonousPlants(p):
     stack = []
     maximo_dias = 0
     i = 0
@@ -19,6 +25,24 @@ def plantas(p):
 
         if dias > maximo_dias:
             maximo_dias = dias
+
+        stack.append((pesticida, dias))
+        i += 1
+
+    return maximo_dias
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+    p = list(map(int, input().rstrip().split()))
+
+    result = poisonousPlants(p)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
 
         stack.append((pesticida, dias))
         i += 1
