@@ -1,4 +1,4 @@
-Estructuras de Datos y Diseño de Algoritmos
+**Estructuras de Datos y Diseño de Algoritmos**
 
 Este repositorio contiene el desarrollo de las actividades realizadas durante el curso, donde se trabajaron conceptos fundamentales de diseño de algoritmos, análisis de complejidad y estructuras de datos.
 Cada carpeta corresponde a una semana del curso y contiene implementaciones en Python, así como diagramas y documentación del proceso de diseño.
